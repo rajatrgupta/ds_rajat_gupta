@@ -37,26 +37,17 @@ ds_rajat_gupta/
 
 ## Results & Visuals  
 
-### PnL Distribution (EDA)  
-![EDA](outputs/eda.png)  
+![EDA](eda.png)
+![PnL Barplot](pnl_barplot.png)
+![Scatterplot](scatterplot.png)
+![Volume Barplot](volume_barplot.png)
 
-### Trades per Day  
-![Scatterplot](outputs/scatterplot.png)  
-
-### Average PnL by Sentiment  
-![PnL Barplot](outputs/pnl_barplot.png)  
-
-### Trading Volume by Sentiment  
-![Volume Barplot](outputs/volume_barplot.png)  
-
----
 
 ## 📑 Key Insights  
 - **Fear periods** → Higher average PnL (~531), lower total volume (~31.6M).  
 - **Greed periods** → Lower average PnL (~139), higher total volume (~87.9M).  
 - Weak correlation (–0.05) between sentiment and profitability → sentiment alone cannot predict success.  
 
----
 
 ## About the Datasets  
 - `csv_files/fear_greed_index.csv` → Sentiment dataset (Fear/Greed).  
